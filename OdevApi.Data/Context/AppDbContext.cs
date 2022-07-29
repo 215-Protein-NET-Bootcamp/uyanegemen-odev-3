@@ -11,8 +11,8 @@ namespace OdevApi.Data.Context
 
         }
 
-        public DbSet<Account> Person { get; set; }
-        public DbSet<Person> Author { get; set; }
+        public DbSet<Person> Person { get; set; }
+        public DbSet<Account> Account { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

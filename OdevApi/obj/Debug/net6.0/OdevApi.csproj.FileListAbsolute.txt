@@ -14,7 +14,6 @@ C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.AssemblyInfoInputs.cache
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.AssemblyInfo.cs
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.csproj.CoreCompileInputs.cache
-C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\staticwebassets.development.json
@@ -25,3 +24,18 @@ C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.pdb
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.genruntimeconfig.cache
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\ref\OdevApi.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Base.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Data.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Dto.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Data.pdb
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Base.pdb
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Dto.pdb

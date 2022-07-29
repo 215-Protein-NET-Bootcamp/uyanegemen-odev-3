@@ -1,0 +1,12 @@
+C:\Users\Egemen Gürdal\source\repos\egemengurdal-odev4\OdevApi.Base\bin\Debug\net6.0\OdevApi.Base.deps.json
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\bin\Debug\net6.0\OdevApi.Base.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\bin\Debug\net6.0\OdevApi.Base.pdb
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.csproj.AssemblyReference.cache
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.AssemblyInfoInputs.cache
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.AssemblyInfo.cs
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.csproj.CoreCompileInputs.cache
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\refint\OdevApi.Base.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\OdevApi.Base.pdb
+C:\Users\Egemen Gürdal\source\repos\egemengurdal-odev4\OdevApi.Base\obj\Debug\net6.0\ref\OdevApi.Base.dll
