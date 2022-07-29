@@ -341,6 +341,10 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[6.0.5, )"
