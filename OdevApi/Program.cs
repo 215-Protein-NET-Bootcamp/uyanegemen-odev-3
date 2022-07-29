@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
@@ -5,22 +6,38 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using OdevApi.Base.Execption;
 using OdevApi.Base.Jwt;
+using OdevApi.Data;
 using OdevApi.Data.Context;
+using OdevApi.Data.Repository.Abstract;
+using OdevApi.Data.Repository.Concrete;
+using OdevApi.Service.Abstract;
+using OdevApi.Service.Concrete;
+using OdevApi.Service.Mapper;
 using System.Net;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var mapperConfig = new MapperConfiguration(cfg =>
+{
+    cfg.AddProfile(new MappingProfile());
+});
 
+builder.Services.AddSingleton(mapperConfig.CreateMapper());
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 builder.Services.AddControllers();
-
 JwtConfig jwtConfig = builder.Configuration.GetSection("JwtConfig").Get<JwtConfig>();
 builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
+
+builder.Services.AddScoped<IAccountService,AccountService>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+builder.Services.AddScoped<ITokenManagementService, TokenManagementService>();
+builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 
 
 builder.Services.AddAuthentication(x =>
@@ -90,23 +107,6 @@ if (app.Environment.IsDevelopment())
 
 }
 
-app.UseExceptionHandler(appError =>
-{
-    appError.Run(async context =>
-    {
-        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-        context.Response.ContentType = "application/json";
-        var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
-        if (contextFeature != null)
-        {
-            await context.Response.WriteAsync(new ErrorDetail()
-            {
-                StatusCode = context.Response.StatusCode,
-                Message = "Internal Server Error. App Level."
-            }.ToString());
-        }
-    });
-});
 
 app.UseHttpsRedirection();
 

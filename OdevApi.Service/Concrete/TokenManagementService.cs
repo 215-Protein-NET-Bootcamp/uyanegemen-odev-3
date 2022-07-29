@@ -50,8 +50,12 @@ namespace OdevApi.Service.Concrete
 
                 // Set Last-Activity value
                 tempAccount.LastActivity = DateTime.UtcNow;
+                tempAccount.CreatedAt = DateTime.SpecifyKind(tempAccount.CreatedAt, DateTimeKind.Utc);
+
+
                 _accountRepository.Update(tempAccount);
                 await _unitOfWork.CompleteAsync();
+
 
                 TokenResponse token = new TokenResponse
                 {

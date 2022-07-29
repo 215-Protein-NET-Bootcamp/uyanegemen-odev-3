@@ -4,11 +4,11 @@ using OdevApi.Data.Model;
 
 namespace OdevApi.Data.Config
 {
-    public class PersonConfig : IEntityTypeConfiguration<Person>
-    {
-        public void Configure(EntityTypeBuilder<Person> builder)
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //public class PersonConfig : IEntityTypeConfiguration<Person>
+    //{
+    //    public void Configure(EntityTypeBuilder<Person> builder)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }

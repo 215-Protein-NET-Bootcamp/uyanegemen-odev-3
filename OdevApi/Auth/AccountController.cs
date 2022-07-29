@@ -12,6 +12,7 @@ using System.Security.Claims;
 
 namespace OdevApi.Auth
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class AccountController : BaseController<AccountDto, Account>
@@ -24,10 +25,9 @@ namespace OdevApi.Auth
             this._accountService = accountService;
         }
 
-
+        [AllowAnonymous]
         [HttpPost]
-        [Authorize]
-        public new async Task<IActionResult> CreateAsync([FromBody] AccountDto resource)
+        public async Task<IActionResult> CreateAsync([FromBody] AccountDto resource)
         {
             var result = await _accountService.InsertAsync(resource);
 
@@ -38,7 +38,6 @@ namespace OdevApi.Auth
         }
 
         [HttpGet("GetUserDetail")]
-        [Authorize]
         public async Task<IActionResult> GetUserDetail()
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("AccountId").Value;
@@ -46,7 +45,7 @@ namespace OdevApi.Auth
         }
 
         [HttpPut("self-update/{id:int}")]
-        [Authorize]
+      
         public async Task<IActionResult> SelfUpdateAsync(int id, [FromBody] AccountDto resource)
         {
             Log.Information($"{User.Identity?.Name}: self-update account with Id is {id}.");
@@ -65,7 +64,6 @@ namespace OdevApi.Auth
         }
 
         [HttpPut("change-password/{id:int}")]
-        [Authorize]
         public async Task<IActionResult> UpdatePasswordAsync(int id, [FromBody] UpdatePasswordRequest resource)
         {
             // Check if the id belongs to me
@@ -86,7 +84,6 @@ namespace OdevApi.Auth
         }
 
         [HttpDelete("{id:int}")]
-        [Authorize]
         public new async Task<IActionResult> DeleteAsync(int id)
         {
             return await base.DeleteAsync(id);

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OdevApi.Auth
 {
     [ApiController]
-    [Route("protein/v1/api/[controller]")]
+    [Route("api/[controller]")]
     public class AuthTestController : ControllerBase
     {
         public AuthTestController() : base()

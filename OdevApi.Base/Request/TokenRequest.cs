@@ -12,12 +12,12 @@ namespace OdevApi.Base.Request
     {
         [Required]
         [MaxLength(125)]
-        [UserNameAttribute]
+        //[UserNameAttribute]
         [Display(Name = "User Name")]
         public string UserName { get; set; }
 
         [Required]
-        [PasswordAttribute]
+        //[PasswordAttribute]
         public string Password { get; set; }
     }
 }
