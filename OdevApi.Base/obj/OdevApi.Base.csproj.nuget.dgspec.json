@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj": {}
+    "C:\\Users\\Egemen Gürdal\\Source\\Repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj": {
+    "C:\\Users\\Egemen Gürdal\\Source\\Repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj",
+        "projectUniqueName": "C:\\Users\\Egemen Gürdal\\Source\\Repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj",
         "projectName": "OdevApi.Base",
-        "projectPath": "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj",
+        "projectPath": "C:\\Users\\Egemen Gürdal\\Source\\Repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj",
         "packagesPath": "C:\\Users\\Egemen Gürdal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\obj\\",
+        "outputPath": "C:\\Users\\Egemen Gürdal\\Source\\Repos\\egemengurdal-odev4\\OdevApi.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Egemen Gürdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[6.0.5, )"
