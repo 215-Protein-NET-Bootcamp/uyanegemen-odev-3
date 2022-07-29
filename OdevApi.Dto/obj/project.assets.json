@@ -243,6 +243,20 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "OdevApi.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Npgsql": "6.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/OdevApi.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdevApi.Base.dll": {}
+        }
       }
     }
   },
@@ -638,12 +652,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OdevApi.Base/1.0.0": {
+      "type": "project",
+      "path": "../OdevApi.Base/OdevApi.Base.csproj",
+      "msbuildProject": "../OdevApi.Base/OdevApi.Base.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Npgsql >= 6.0.5",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.5"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.5",
+      "OdevApi.Base >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -673,7 +693,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj": {
+              "projectPath": "C:\\Users\\Egemen Gürdal\\source\\repos\\egemengurdal-odev4\\OdevApi.Base\\OdevApi.Base.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

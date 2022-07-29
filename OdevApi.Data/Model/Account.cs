@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OdevApi.Base.BaseModel;
 
 namespace OdevApi.Data.Model
 {
-    public class Account
+    public class Account : BaseModel
     {
         public int Id { get; set; }
         public string UserName { get; set; }

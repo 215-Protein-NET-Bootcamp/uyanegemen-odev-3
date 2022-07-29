@@ -16,4 +16,8 @@
     <Folder Include="Unitofwork\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OdevApi.Base\OdevApi.Base.csproj" />
+  </ItemGroup>
+
 </Project>
