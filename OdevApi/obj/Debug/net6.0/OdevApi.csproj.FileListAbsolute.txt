@@ -39,3 +39,13 @@ C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Data.pdb
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Base.pdb
 C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Dto.pdb
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\obj\Debug\net6.0\OdevApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\Serilog.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Service.dll
+C:\Users\Egemen Gürdal\Source\Repos\egemengurdal-odev4\OdevApi\bin\Debug\net6.0\OdevApi.Service.pdb
